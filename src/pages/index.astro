@@ -7,7 +7,7 @@ import type { Post } from "@/types";
 
 const meta = {
 	title: "Internet trash bin",
-	description: "tminhvu's personal blog, where I post about my opinion Neovim, Linux, BSPWM, C, Lua, JS, React and more",
+	description: "tminhvu's personal blog, where I post about my opinion on Neovim, Linux, BSPWM, C, Lua, JS, React and more",
 };
 
 const MAX_POSTS = 10;
@@ -35,7 +35,14 @@ const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS);
 			class="inline-block cactus-link"
 			> Astro Cactus
 		    </a>
-
+                , deploy bằng
+            <a
+            href="https://vercel.com"
+            target ="_blank"
+			rel="noopener noreferrer"
+			class="inline-block cactus-link"
+			> Vercel
+		    </a>
 		</p>
         <p class="mb-4">
             "Linux enjoyer, C admirer, Lua scripter, Neovim user"
@@ -59,47 +66,54 @@ const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS);
 		<ul class="space-y-4 sm:space-y-2">
 			<li>
 				<a
-					href="https://astro.build"
+					href="https://github.com/tminhvu/mellow.nvim"
 					target="_blank"
 					rel="noopener noreferrer"
 					class="inline-block cactus-link"
-					>Astro
-				</a>:
-				<p class="inline-block sm:mt-2">Build fast websites, faster.</p>
-			</li>
-			<li>
-				<a
-					href="https://docs.astro.build/en/guides/integrations-guide/image/"
-					target="_blank"
-					rel="noopener noreferrer"
-					class="inline-block cactus-link"
-					>@astro/image
+					>tminhvu/mellow.nvim
 				</a>:
 				<p class="inline-block sm:mt-2">
-					An Astro integration for optimising images in Astro projects.
+                    Dark colorscheme nhẹ mắt, dựa trên
+                    <a
+                        href="https://github.com/kvrohit/mellow.nvim"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="inline-block cactus-link"
+                        >kvrohit/mellow.nvim
+                    </a>
 				</p>
 			</li>
 			<li>
 				<a
-					href="https://tailwindcss.com"
+					href="https://github.com/tminhvu/nvim"
 					target="_blank"
 					rel="noopener noreferrer"
 					class="inline-block cactus-link"
-					>Tailwind CSS
+					>NVIM dot files
 				</a>:
 				<p class="inline-block sm:mt-2">
-					Rapidly build modern websites without ever leaving your HTML.
+                    Neovim config của mình
 				</p>
+			</li>
+            <li>
+				<a
+					href="https://github.com/tminhvu/cactus-portfolio"
+					target="_blank"
+					rel="noopener noreferrer"
+					class="inline-block cactus-link"
+					>cactus-portfolio
+				</a>:
+				<p class="inline-block sm:mt-2">Chính là cái blog này đây, dùng Astro với mỗi Post là một file Markdown</p>
 			</li>
 			<li>
 				<a
-					href="https://mdxjs.com/"
+					href="https://github.com/tminhvu/purplerain-lua"
 					target="_blank"
 					rel="noopener noreferrer"
 					class="inline-block cactus-link"
-					>MDX
+					>purplerain-lua
 				</a>:
-				<p class="inline-block sm:mt-2">Markdown for the component era.</p>
+				<p class="inline-block sm:mt-2">Purple rain coding challenge với Lua và thư viện đồ họa Love2d</p>
 			</li>
 		</ul>
 	</section>

@@ -11,7 +11,7 @@ export default defineConfig({
 			wrap: true,
 		},
 	},
-	site: "https://sickduging.com",
+	site: "https://tminhvu.vercel.app",
 	integrations: [
 		mdx({}),
 		tailwind({
